@@ -17,8 +17,8 @@ library = load_library(file)
 library.each do |key, value|
   #binding.pry
 if english_emoticon == value[:english]
+  binding.pry
   return value[:japanese]
-binding.pry
     end
   end
 end
