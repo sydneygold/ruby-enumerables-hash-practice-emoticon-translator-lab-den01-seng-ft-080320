@@ -20,6 +20,7 @@ if english_emoticon == value[:english]
   puts
 #binding.pry
 return value
+    end
   end
 end
 
