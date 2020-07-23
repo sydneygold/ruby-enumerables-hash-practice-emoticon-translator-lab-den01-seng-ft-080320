@@ -32,4 +32,5 @@ library.each do |key, value|
     return key[:english]
     end
   end
+  p "Sorry, that emoticon was not found"
 end
