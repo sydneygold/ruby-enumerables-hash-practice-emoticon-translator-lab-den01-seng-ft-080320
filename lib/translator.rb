@@ -12,7 +12,7 @@ data.each_pair do |key, translation|
 end
 
 
-def get_japanese_emoticon(file)
+def get_japanese_emoticon(file, )
 library = load_library(file)
 library = load_library(file)
 library.each do |key, value|
