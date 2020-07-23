@@ -9,7 +9,6 @@ data.each_pair do |key, translation|
   end
   binding.pry
   return final_result
-
 end
 
 
