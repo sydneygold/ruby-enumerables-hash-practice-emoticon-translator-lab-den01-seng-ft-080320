@@ -12,8 +12,7 @@ data.each_pair do |key, translation|
 end
 
 
-def get_japanese_emoticon(file, )
-library = load_library(file)
+def get_japanese_emoticon(file, english_emoticon)
 library = load_library(file)
 library.each do |key, value|
 library[key]= {"japanese" => translation[1]}
