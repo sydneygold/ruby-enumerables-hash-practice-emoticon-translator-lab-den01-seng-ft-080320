@@ -24,8 +24,10 @@ if english_emoticon == value[:english]
 end
 
 
-def get_english_meaning(file)
+def get_english_meaning(file, japanese_emoticon)
 library = load_library(file)
-
-
+library.each do |key, value|
+  if japanese_emoticon == key[:japanese]
+    return key[:english]
+  end
 end
