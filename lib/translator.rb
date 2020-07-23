@@ -1,13 +1,23 @@
-# require modules here
+require "yaml"
+require 'pry'
 
-def load_library
-  # code goes here
+def load_library(file)
+data = YAML.load_file(file)
+final_result = {}
+data.each_pair do |key, translation|
+  final_result[key]= {"english" => translation[0], "japanese"=> translation[1]}
+  end
+  return final_result
+  binding.pry
 end
 
-def get_japanese_emoticon
-  # code goes here
+
+def get_japanese_emoticon(file)
+
 end
 
-def get_english_meaning
+
+def get_english_meaning()
   # code goes here
+
 end
