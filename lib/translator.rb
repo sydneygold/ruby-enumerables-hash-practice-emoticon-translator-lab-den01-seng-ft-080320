@@ -8,17 +8,18 @@ data.each_pair do |key, translation|
   final_result[key]= {:english => translation[0], :japanese => translation[1]}
   end
   return final_result
-  binding.pry
+  #binding.pry
 end
 
 
-def get_japanese_emoticon()
+def get_japanese_emoticon(file)
 library = load_library(file)
+
 end
 
 
-def get_english_meaning()
+def get_english_meaning(file)
+library = load_library(file)
 
-  # code goes here
 
 end
