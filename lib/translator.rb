@@ -15,7 +15,8 @@ end
 def get_japanese_emoticon(file, english_emoticon)
 library = load_library(file)
 library.each do |key, value|
-library[key]= {"japanese" => translation[1]}
+if english_emoticon == value[:english]
+  puts
 binding.pry
 return value
   end
