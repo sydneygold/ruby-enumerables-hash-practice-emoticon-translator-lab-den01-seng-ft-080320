@@ -18,7 +18,7 @@ library.each do |key, value|
   #binding.pry
 if english_emoticon == value[:english]
   return value[:japanese]
-#binding.pry
+binding.pry
     end
   end
 end
