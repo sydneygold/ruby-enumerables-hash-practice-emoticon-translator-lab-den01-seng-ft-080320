@@ -17,8 +17,8 @@ library = load_library(file)
 library = load_library(file)
 library.each do |key, value|
 library[key]= {"japanese" => translation[1]}
-return value
 binding.pry
+return value
   end
 end
 
