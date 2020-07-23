@@ -21,6 +21,7 @@ if english_emoticon == value[:english]
   return value[:japanese]
     end
   end
+  puts 'Sorry'
 end
 
 
