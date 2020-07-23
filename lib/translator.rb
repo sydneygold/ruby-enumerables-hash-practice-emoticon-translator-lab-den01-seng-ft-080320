@@ -29,5 +29,6 @@ library = load_library(file)
 library.each do |key, value|
   if japanese_emoticon == key[:japanese]
     return key[:english]
+    end
   end
 end
