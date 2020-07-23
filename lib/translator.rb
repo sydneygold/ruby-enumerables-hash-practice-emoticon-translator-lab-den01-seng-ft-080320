@@ -21,7 +21,7 @@ if english_emoticon == value[:english]
   return value[:japanese]
     end
   end
-  puts "Sorry, that emoticon was not found"
+  p "Sorry, that emoticon was not found"
 end
 
 
